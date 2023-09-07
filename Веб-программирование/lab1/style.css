@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+#result {
+    width: 100%;
+    color: gray;
+}
+
+#result td,
+#result th {
+    border: 1px solid gray;
+}
+
+body {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+form {
+    width: 666px;
+    margin: 0 auto 0 auto;
+    background: white;
+}
+
+input[type="checkbox"] {
+    accent-color: #3399ff;
+}
+
+.table_background {
+    background: url("image/AmOgUs.gif");
+    background-size: 100% 100%;
+}
+
+.hide_background {
+    background: white;
+}
+
+.row,
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row>div,
+.row2>div {
+    flex: 0 0 33.33%;
+    border: 1px solid black;
+}
+
+.row2>div:first-child {
+    flex: 0 0 33.33%;
+}
+
+.row2>div:nth-child(2) {
+    flex: 0 0 10%;
+}
+
+.row2>div:last-child {
+    flex: 0 0 56.666%;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    color: red;
+    font-size: 20px;
+}
+
+.inputX {
+    border: 1px solid black;
+}
+
+.inputX:placeholder-shown {
+    border: 1px solid red;
+}
+
+.inputR {
+    display: block;
+    width: 100%;
+}
+
+.input {
+    padding: 10px 10px 10px 10px;
+}
+
+.checkBox {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+}
+
+.checkBox>div {
+    flex: 0 0 33%;
+}
+
+.graph {
+    width: 200px;
+    height: 200px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
